@@ -1,0 +1,167 @@
+
+/*CAROUSEL*/
+
+.bs-example h2 {
+    margin: 0;     
+    color: #333333;
+    padding-top: 90px;
+    font-size: 52px;  
+}
+
+.item {   
+    text-align: center;
+    height: 300px !important;
+}
+
+.carousel {
+    margin-top: 60px;
+}
+
+.carousel h3, .carousel p {
+    color: #333;
+    text-shadow: none;
+}
+
+.carousel-control {
+    color: #333333;
+}
+
+.carousel-control:hover {
+    color:#000;
+}
+
+.carousel-indicators li {
+    border: 1px solid #333;
+}
+
+.carousel-indicators .active {
+    background-color: #e1e1e1;
+}
+
+.bs-example {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;  
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+/*CONTENT*/
+
+.content-wrap .glyphicon{
+    font-size: 64px;
+}
+
+/*TAB*/
+
+.tab-content {
+    padding: 20px;
+}
+
+/*TOOLTIP*/
+
+.tooltip.top {
+  padding: 10px 5;
+  margin-top: -20px;
+  background: #000000;
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 16px solid #000000;
+}
+
+/*FOOTER*/
+
+.footer-wrap {
+    background-color: #101010;
+    color: #ffffff;
+}
+
+.footer-wrap p {
+    color: #fff;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 768px) {
+    .fl-margin {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/*MISC*/
+
+img {
+    max-width: 100%;
+}
+
+.col-xs-1, .col-sm-1,
+.col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, 
+.col-md-2, .col-lg-2, 
+.col-xs-3, .col-sm-3, 
+.col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, 
+.col-md-4, .col-lg-4, 
+.col-xs-5, .col-sm-5, 
+.col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, 
+.col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, 
+.col-md-7, .col-lg-7, 
+.col-xs-8, .col-sm-8, 
+.col-md-8, .col-lg-8, 
+.col-xs-9, .col-sm-9, 
+.col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, 
+.col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, 
+.col-md-11, .col-lg-11, 
+.col-xs-12, .col-sm-12, 
+.col-md-12, .col-lg-12 {
+    margin: 0 0 20px 0;
+}
+
+.row {
+    padding: 20px 0
+}
+
+.pad-center {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.fl-margin {
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,453 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+	
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+
+
+
+
+	
+<!-- NAVIGATION -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
+<!-- END NAVIGATION -->
+
+
+
+
+<!-- CAROUSEL -->
+<div class="bs-example">
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-interval="6000" data-ride="carousel">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- Carousel items -->
+			<div class="carousel-inner">
+				<div class="active item">
+					<div class="carousel-caption">
+						<img src="images/thumb-md.jpg" alt="thumb med">
+						<h3>First slide label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="#" class="btn btn-default">Read More</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel-caption">
+						<img src="images/thumb-md.jpg" alt="thumb med">
+						<h3>Second slide label</h3>
+						<p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+						<a href="#" class="btn btn-default">Read More</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel-caption">
+						<img src="images/thumb-md.jpg" alt="thumb med">
+						<h3>Third slide label</h3>
+						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+						<a href="#" class="btn btn-default">Read More</a>
+					</div>
+				</div>
+			</div>
+			<!-- Carousel nav -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+</div>
+<!-- END CAROUSEL -->
+
+
+
+
+<!-- CONTENT SECTON -->
+	<div class="content-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>Hello World!</h1>
+					<p class="pad-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 text-center">
+					<p class="glyphicon glyphicon-saved"></p>
+					<h3>Proin ac odio eu justo dignissim</h3>
+					<p>Rhoncus nibh quis mauris porttitor vulputate et non dolor. Nulla blandit eleifend nunc at aliquam. Proin porta leo in orci porttitor, sed cursus est eleifendeleifend nunc at aliquam.</p>
+					<a href="#" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Read More</a>
+				</div>
+				<div class="col-lg-4 text-center">
+					<p class="glyphicon glyphicon-transfer"></p>
+					<h3>Phasellus rhoncus nibh quis</h3>
+					<p>Rhoncus nibh quis mauris porttitor vulputate et non dolor. Nulla blandit eleifend nunc at aliquam. Proin porta leo in orci porttitor, sed cursus est eleifendeleifend nunc at aliquam.</p>
+					<a href="#" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Read More</a>
+				</div>
+				<div class="col-lg-4 text-center">
+					<p class="glyphicon glyphicon-record"></p>
+					<h3>Odio eu justo dignissim</h3>
+					<p>Rhoncus nibh quis mauris porttitor vulputate et non dolor. Nulla blandit eleifend nunc at aliquam. Proin porta leo in orci porttitor, sed cursus est eleifendeleifend nunc at aliquam.</p>
+					<a href="#" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Read More</a>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-lg-12">
+				<img class="pull-left img-rounded fl-margin" src="images/thumb-lg.jpg" alt="image lg">
+				<div class="media-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+<!-- END CONTENT SECTON -->
+
+
+
+
+<!-- JUMBOTRON -->
+<div class="jumbotron">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-12-lg">
+				<div class="jumbotron">
+					<h1>Hello, world!</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END JUMBOTRON -->
+
+
+
+
+<!-- THUMBNAIL GALLERY -->
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<h1 class="page-header">Thumbnail Gallery</h1>
+		</div>
+
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-sm-3 col-xs-6 thumb">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="images/thumb-lg.jpg">
+			</a>
+		</div>
+	</div>
+</div>
+<!-- END THUMBNAIL GALLERY -->
+
+
+
+
+
+<!-- TABS -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+				<li><a href="#profile" data-toggle="tab">Profile</a></li>
+				<li><a href="#messages" data-toggle="tab">Messages</a></li>
+				<li><a href="#settings" data-toggle="tab">Settings</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div class="tab-pane fade in active" id="home">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="tab-pane fade" id="profile">
+					<p>Suspendisse ipsum odio, ornare eget consectetur quis, commodo at risus. Sed at lorem neque. Vestibulum ullamcorper sem vel condimentum molestie. Morbi fringilla lectus mauris, vel pharetra sapien porta ut. Vivamus ultrices varius tortor sed rhoncus. Phasellus in nibh dolor. Donec a nulla tincidunt, euismod mi a, malesuada lorem. Ut rutrum justo in leo condimentum adipiscing. Pellentesque leo nunc, ullamcorper sed orci ut, tristique varius ipsum. Fusce semper placerat lacinia. Nunc vitae semper leo, vitae dignissim turpis. Nunc sagittis dolor metus, eget hendrerit dolor molestie in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sagittis porta dolor id adipiscing.</p>
+				</div>
+				<div class="tab-pane fade" id="messages">
+					<p>Aliquam erat volutpat. Duis dapibus, ipsum sit amet mattis iaculis, nibh lorem ultricies lorem, sed pharetra dui felis non tortor. Aenean sit amet urna eu erat sagittis egestas eget ut augue. Aliquam erat volutpat. In hac habitasse platea dictumst. Nulla quis gravida sem. In lobortis magna eu leo sodales, a faucibus erat bibendum. Maecenas aliquam eros ut quam imperdiet placerat. Donec sollicitudin non nisl non facilisis. Praesent vitae viverra magna. Pellentesque at sem ut tellus consequat consectetur ultrices eget risus. Cras arcu sem, interdum nec nunc at, blandit aliquam erat. Nam gravida risus nec magna posuere molestie.</p>
+					<p>Nam viverra, dui id scelerisque pharetra, ipsum metus faucibus leo, a aliquam magna lorem et nulla. Proin nec libero pulvinar, aliquet est et, pellentesque tortor. Vivamus et condimentum risus, eget feugiat neque. Donec quis tellus sit amet libero mollis aliquet. Fusce dapibus sem ante. Nunc eu placerat arcu. Integer pulvinar ipsum arcu, a pulvinar mi condimentum eget.</p>
+				</div>
+				<div class="tab-pane fade" id="settings">
+					<p>Donec sapien turpis, dictum ac aliquam nec, pretium id ipsum. In sit amet turpis sed lorem egestas rhoncus. Ut sit amet sagittis tortor. Nam metus tellus, bibendum et ultricies sed, tristique sed nulla. Nulla egestas vestibulum risus a faucibus. Nullam eu libero in massa semper aliquet ac non turpis. Suspendisse vitae metus id libero convallis condimentum eu vehicula eros. Praesent aliquam tortor sed tempus mattis. Nunc augue lacus, facilisis sit amet ultricies eget, fringilla in elit. Donec dictum purus id pretium egestas.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END TABS -->
+
+
+
+
+
+<!-- ACCORDION -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+								Collapsible Group Item #1
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<div class="panel-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+								Collapsible Group Item #2
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+						<div class="panel-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+								Collapsible Group Item #3
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse">
+						<div class="panel-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END ACCORDION -->
+
+
+
+
+
+
+
+
+
+
+<!-- POPOVER -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+					Popover on right
+				</button>
+			</div>
+		</div>
+	</div>
+<!-- END POPOVER -->
+
+
+
+
+
+<!-- MODAL -->
+<!-- Button trigger modal -->
+<div class="container">
+	<div class="col-lg-12">
+		<div class="row">
+			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				Launch demo modal
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+						</div>
+
+						<div class="modal-body">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END MODAL -->
+
+
+
+
+
+<!-- FOOTER -->
+<footer class="footer-wrap">
+	<div class="container">                        
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="text-right">&#169; jbdesigns.ca</p>
+			</div>
+		</div>
+	</div>
+</footer>	
+<!-- END FOOTER -->
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscripts.js"></script>
+
+</html>
